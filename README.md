@@ -14,3 +14,34 @@ curl -K urls.txt
 This will download all the photos and name them according to unix timestamps.
 
 Tested on Chrome 62 with Mac OS 10.12, but should work on most browsers and systems with curl.
+
+## Test plant
+
+*Y coords*
+
+Row 1 - 270 - white radish
+
++380
+
+Row 2 - 650 - coriander
+
++450
+
+Row 3 - 1100 - red radish
+
+*X coords*
+
+Planting x from 150 to 2400 in 200 mm intervals
+
+150
+350
+550
+750
+950
+1150
+1350
+1550
+1750
+1950
+2150
+2350
