@@ -27,7 +27,7 @@ function getPhotos(i) {
     return;
   }
   theButton.click(); // advance to next image
-  nodeToAdd.insertAdjacentHTML('beforeend', addText2);
+  nodeToAdd.insertAdjacentHTML('beforeend', addTextForCurl);
   if (theButton.disabled && i>1){
     // if we clicked to the last image, do one last loop
     setTimeout(function() {getPhotos(1);}, loopLengthMs);
